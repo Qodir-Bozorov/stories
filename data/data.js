@@ -5,9 +5,8 @@ var stories = [
     audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
     audioNum: "2🎧",
     pages: "48",
-    thumb: 'data/img/persuasion.jpg',
-    pdf: 'data/pdf/persuasion.pdf',
-    page: 'data/pages/persuasion.html',
+    thumb: 'img/persuasion.jpg',
+    pdf: 'pdf/persuasion.pdf',
   },
   {
     title: "Persuasion",
@@ -15,8 +14,7 @@ var stories = [
     audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
     audioNum: "2🎧",
     pages: "48",
-    thumb: 'data/img/persuasion.jpg',
-    pdf: 'data/pdf/persuasion.pdf',
-    page: 'data/pages/persuasion.html',
+    thumb: 'img/persuasion.jpg',
+    pdf: 'pdf/persuasion.pdf',
   }
 ]
