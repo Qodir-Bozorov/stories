@@ -1,0 +1,90 @@
+body {
+  max-height: 100vh;
+}
+.site-header {
+  font-size: 28px;
+  border-bottom: 0.5px solid #1a7f7254;
+}
+.site-nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-link {
+  text-decoration: none;
+  color: $main-color;
+  font-weight: 800;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.nav-item {
+  margin: 30px 15px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.nav-link {
+  text-decoration: none;
+  color: hsl(171, 32%, 9%);
+  transition: color 400ms ease;
+  &:hover {
+    color: hsl(172, 34%, 47%);
+  }
+  &-active {
+    color: hsl(172, 34%, 47%);
+  }
+}
+
+.hero-heading {
+  color: $main-color;
+  font-size: 53px;
+  text-align: center;
+}
+
+.news-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid maroon;
+  border-radius: 5px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.title {
+  font-size: 22px;
+  color: $main-color;
+  font-weight: 600;
+}
+.author {
+  letter-spacing: 2px;
+}
+.pages {
+  background-color: $main-color;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0 4px;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.audio {
+  font-size: 28px;
+}
