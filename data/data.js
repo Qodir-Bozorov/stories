@@ -6,7 +6,7 @@ var stories = [
     audioNum: "2🎧",
     pages: "48",
     thumb: 'data/img/persuasion.jpg',
-    pdf: 'data/pdf/persuasion.pdf',
+    pdf: 'https://pdfhost.io/v/XdZxvuyiM_Persuasion',
   },
   {
     title: "Persuasion",
@@ -15,6 +15,6 @@ var stories = [
     audioNum: "2🎧",
     pages: "48",
     thumb: 'data/img/persuasion.jpg',
-    pdf: 'data/pdf/persuasion.pdf',
+    pdf: 'https://pdfhost.io/v/XdZxvuyiM_Persuasion',
   }
 ]
